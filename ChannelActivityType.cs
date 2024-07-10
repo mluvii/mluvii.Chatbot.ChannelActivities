@@ -26,6 +26,7 @@ namespace mluvii.Chatbot.ChannelActivities
         GetAvailableGroups,
         GetAvailableGroupsResponse,
         ConversationStarted, //Generic chatbot
+        ConversationEnded, //Generic chatbot
         GetHeroCards,
         GetHeroCardsResponse,
         SendHeroCard,
