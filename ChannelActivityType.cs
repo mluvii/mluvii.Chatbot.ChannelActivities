@@ -23,6 +23,7 @@ namespace mluvii.Chatbot.ChannelActivities
         GuestFileUpload,
         Ping, //Generic chatbot
         Text, //Generic chatbot
+        RichCardList, //Generic chatbot
         GetAvailableGroups,
         GetAvailableGroupsResponse,
         ConversationStarted, //Generic chatbot
