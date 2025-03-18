@@ -48,6 +48,8 @@ namespace mluvii.Chatbot.ChannelActivities
         ObtainCrmIdentity,
         ObtainCrmIdentityResponse,
         SetTag,
-        UnsetTag
+        UnsetTag,
+        RequestLocation,
+        GuestLocation
     }
 }
