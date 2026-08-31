@@ -18,6 +18,8 @@ namespace mluvii.Chatbot.ChannelActivities
 
         public string VkContactId { get; set; }
 
+        public string AppleContactId { get; set; }
+
         public string GenericChannelId { get; set; }
     }
 }
