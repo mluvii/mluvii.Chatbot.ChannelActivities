@@ -20,36 +20,36 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// The Facebook PSID identifier.
         /// </summary>
-        public string FacebookPSID { get; set; }
+        public string? FacebookPSID { get; set; }
 
         /// <summary>
         /// The Facebook page identifier.
         /// </summary>
-        public string FacebookPageId { get; set; }
+        public string? FacebookPageId { get; set; }
 
         /// <summary>
         /// The guest's phone number.
         /// </summary>
-        public string PhoneCallerId { get; set; }
+        public string? PhoneCallerId { get; set; }
 
         /// <summary>
         /// The WhatsApp contact identifier.
         /// </summary>
-        public string WhatsAppContactId { get; set; }
+        public string? WhatsAppContactId { get; set; }
 
         /// <summary>
         /// The VK contact identifier.
         /// </summary>
-        public string VkContactId { get; set; }
+        public string? VkContactId { get; set; }
 
         /// <summary>
         /// The Apple contact identifier.
         /// </summary>
-        public string AppleContactId { get; set; }
+        public string? AppleContactId { get; set; }
 
         /// <summary>
         /// The generic channel identifier.
         /// </summary>
-        public string GenericChannelId { get; set; }
+        public string? GenericChannelId { get; set; }
     }
 }

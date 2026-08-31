@@ -18,6 +18,6 @@
         /// <summary>
         /// Error message if the operation failed.
         /// </summary>
-        public string ErrorMessage { get; set; }
+        public string? ErrorMessage { get; set; }
     }
 }

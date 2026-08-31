@@ -20,11 +20,11 @@
         /// <summary>
         /// The external URL of the file to share.
         /// </summary>
-        public string Url { get; set; }
+        public string? Url { get; set; }
 
         /// <summary>
         /// The name of the file stored in mluvii (obtained via <see cref="GetMediaObjects"/>).
         /// </summary>
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }

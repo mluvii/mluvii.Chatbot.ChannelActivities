@@ -13,6 +13,6 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// Optional text message to display with the request.
         /// </summary>
-        public string Text { get; set; }
+        public string? Text { get; set; }
     }
 }

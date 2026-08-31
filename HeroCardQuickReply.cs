@@ -16,7 +16,7 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// The quick reply text.
         /// </summary>
-        public string Text { get; set; }
+        public string? Text { get; set; }
 
         /// <summary>
         /// The ID of the activity this is a reply to.

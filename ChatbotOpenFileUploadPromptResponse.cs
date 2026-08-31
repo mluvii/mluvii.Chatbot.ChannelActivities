@@ -13,7 +13,7 @@
         /// <summary>
         /// File URL uploaded by guest, if successful.
         /// </summary>
-        public string FileUrl { get; set; }
+        public string? FileUrl { get; set; }
 
         /// <summary>
         /// True if the guest canceled the file upload prompt.

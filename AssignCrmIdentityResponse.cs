@@ -23,6 +23,6 @@
         /// <summary>
         /// Reason for failure, if any.
         /// </summary>
-        public string Reason { get; set; }
+        public string? Reason { get; set; }
     }
 }
