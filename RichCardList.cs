@@ -6,7 +6,7 @@ namespace mluvii.Chatbot.ChannelActivities
     /// <summary>
     /// Supports ms bot framework rich cards: https://learn.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-connector-add-rich-cards?view=azure-bot-service-4.0
     /// </summary>
-    public class ChatbotRichCardList : ChatbotChannelActivityBase
+    public class RichCardList : ChatbotChannelActivityBase
     {
         public override ChannelActivityType Activity => ChannelActivityType.RichCardList;
 

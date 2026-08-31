@@ -1,6 +1,6 @@
 namespace mluvii.Chatbot.ChannelActivities
 {
-    public class ForwardFromChatbot : ChatbotChannelActivityBase
+    public class Forward : ChatbotChannelActivityBase
     {
         public override ChannelActivityType Activity => ChannelActivityType.Forward;
 

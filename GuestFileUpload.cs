@@ -1,6 +1,6 @@
 ﻿namespace mluvii.Chatbot.ChannelActivities
 {
-    public class ChatbotGuestFileUpload : ChatbotChannelActivityBase
+    public class GuestFileUpload : ChatbotChannelActivityBase
     {
         public override ChannelActivityType Activity => ChannelActivityType.GuestFileUpload;
 

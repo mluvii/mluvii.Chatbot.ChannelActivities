@@ -1,6 +1,6 @@
 ﻿namespace mluvii.Chatbot.ChannelActivities
 {
-    public class ChatbotShareFile : ChatbotChannelActivityBase
+    public class ShareFile : ChatbotChannelActivityBase
     {
         public override ChannelActivityType Activity => ChannelActivityType.ShareFile;
 
