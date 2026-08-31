@@ -22,6 +22,6 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// Optional field to filter by specific group IDs.
         /// </summary>
-        public ICollection<int> GroupIds { get; set; }
+        public ICollection<int>? GroupIds { get; set; }
     }
 }

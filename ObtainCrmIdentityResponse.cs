@@ -20,7 +20,7 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// List of matched CRM identities from the Contact Directory.
         /// </summary>
-        public GetSessionCrmIdentityResponseMatch[] MatchedCrmIdentities { get; set; }
+        public GetSessionCrmIdentityResponseMatch[]? MatchedCrmIdentities { get; set; }
 
         /// <summary>
         /// Describes a CRM identity match

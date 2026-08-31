@@ -22,7 +22,7 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// The list of rich card items.
         /// </summary>
-        public IList<Item> Items { get; set; }
+        public IList<Item>? Items { get; set; }
 
         /// <summary>
         /// The layout of the items (List or Carousel).

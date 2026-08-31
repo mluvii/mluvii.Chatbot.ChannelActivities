@@ -21,16 +21,16 @@ namespace mluvii.Chatbot.ChannelActivities
         /// <summary>
         /// Optional predefined values in a HeroCard.
         /// </summary>
-        public IReadOnlyDictionary<string, string> InitialParams { get; set; }
+        public IReadOnlyDictionary<string, string>? InitialParams { get; set; }
 
         /// <summary>
         /// Optional selected language in format "cs", "en", "de" etc.
         /// </summary>
-        public string SelectedLanguage { get; set; }
+        public string? SelectedLanguage { get; set; }
 
         /// <summary>
         /// Optional additional parameters (e.g. for WhatsApp).
         /// </summary>
-        public Dictionary<string, string[]> AdditionalParams { get; set; }
+        public Dictionary<string, string[]>? AdditionalParams { get; set; }
     }
 }

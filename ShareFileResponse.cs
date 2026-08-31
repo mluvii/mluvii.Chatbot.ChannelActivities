@@ -18,11 +18,11 @@
         /// <summary>
         /// Error message if the operation failed.
         /// </summary>
-        public string ErrorMessage { get; set; }
+        public string? ErrorMessage { get; set; }
 
         /// <summary>
         /// Source of the file.
         /// </summary>
-        public string FileSource { get; set; }
+        public string? FileSource { get; set; }
     }
 }
